@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.agendamentoconsultas.UsuarioTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! - in com.mycompany.agendamentoconsultas.UsuarioTest
+cpfInvalido  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: O CPF '123456789' deveria ser inválido ==> expected: <false> but was: <true>
+	at com.mycompany.agendamentoconsultas.UsuarioTest.cpfInvalido(UsuarioTest.java:29)
+
